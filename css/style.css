@@ -105,6 +105,16 @@ body {
 	
 	}
 	
+.footer{
+	margin:auto;
+	display:block;
+	float:left;
+	background-color:#31221e;
+	width:1020px;
+	height:70px;
+
+	}
+	
 .clear{
 	clear:both;
 	}
