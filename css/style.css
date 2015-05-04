@@ -4,8 +4,6 @@ body {
 	width: 100%;
 	
 	}
-
-
 	
 .header  .logo{
 	margin: auto;
@@ -14,7 +12,8 @@ body {
 	width:93px;
 	height:114px;
 	background-color:#31221e;
-	
+	margin-left:36px;
+	margin-top:12px;
 	}
 	
 .header {
@@ -34,5 +33,16 @@ body {
 	padding-top:48px;
 	padding-left:108px;
 	margin-top:0px;
+	margin-left:108px;
+
+	}
+
+.header h2 {
+	font-family:Helvetica;
+	color:#e7c004;
+	font-size:18px;
+	padding-left:108px;
+	margin-top:0px;
+	margin-left:108px;
 
 	}
