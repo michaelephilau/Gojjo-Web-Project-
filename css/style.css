@@ -2,6 +2,7 @@ body {
 	margin:auto;
 	display: block;
 	width: 100%;
+	align:center;
 	
 	}
 	
@@ -91,6 +92,16 @@ body {
 .navbuttons ul li a:hover {
 	background-color: #53321f;
 	opacity:0.4px;
+	
+	}
+	
+.container{
+	margin:auto;
+	float:left;
+	width:1020px;
+	height:725px;
+	background:url('../images/background.png') no-repeat;
+	background-color:#31221e;
 	
 	}
 	
