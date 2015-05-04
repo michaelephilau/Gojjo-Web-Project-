@@ -5,16 +5,9 @@ body {
 	
 	}
 
-.sitelogo  {
-	display: block;
-	margin: auto;
-	padding-bottom: 17px;
-	float: left;
-	padding-left: 36px;
+
 	
-	}
-	
-.sitelogo  .logo{
+.header  .logo{
 	margin: auto;
 	display: block;
 	float:left;
