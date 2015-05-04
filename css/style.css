@@ -2,8 +2,7 @@ body {
 	margin:auto;
 	display: block;
 	width: 100%;
-	align:center;
-	
+	background-color:#31221e;
 	}
 	
 .header  .logo{
@@ -20,7 +19,7 @@ body {
 .header {
 	margin:auto;
 	display:block;
-	float:left;
+	float:center;
 	background-color:#31221e;
 	width:1020px;
 	height:140px;
@@ -53,7 +52,7 @@ body {
 	margin:auto;
 	float:left;
 	height:10px;
-	width:1020px;
+	width:100%;
 	background-color:#e7c004;
 
 	}
@@ -61,13 +60,14 @@ body {
 .navbuttons {
 	float:left;
 	margin:auto;
+	
 
 	}
 	
 .navbuttons ul {
 	margin:auto;
 	padding-left: 0px;
-	
+	float:left;
 	}
 
 
@@ -97,7 +97,7 @@ body {
 	
 .container{
 	margin:auto;
-	float:left;
+	float:center;
 	width:1020px;
 	height:725px;
 	background:url('../images/background.png') no-repeat;
