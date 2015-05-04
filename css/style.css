@@ -18,12 +18,28 @@ body {
 	
 .header {
 	margin:auto;
-	display:block;
-	float:center;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
 	background-color:#31221e;
 	width:1020px;
 	height:140px;
 
+	}
+	
+.logocontain{
+	flex: 1,1,0;
+
+	}
+	
+.hours{
+	flex:1,2,2;
+
+	}
+	
+.navbuttons{
+	flex:1,1,0;
+	
 	}
 	
 .header h1 {
@@ -97,7 +113,6 @@ body {
 	
 .container{
 	margin:auto;
-	float:center;
 	width:1020px;
 	height:725px;
 	background:url('../images/background.png') no-repeat;
