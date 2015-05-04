@@ -7,7 +7,6 @@ body {
 
 .sitelogo  {
 	display: block;
-	width:93px;
 	margin: auto;
 	padding-bottom: 17px;
 	float: left;
@@ -19,6 +18,9 @@ body {
 	margin: auto;
 	display: block;
 	float:left;
+	width:93px;
+	height:114px;
+	background-color:#31221e;
 	
 	}
 	
@@ -27,12 +29,17 @@ body {
 	display:block;
 	float:left;
 	background-color:#31221e;
+	width:1020px;
+	height:140px;
 
 	}
 	
 .header h1 {
 	font-family:Helvetica;
 	color:#e7c004;
-	
+	font-size:18px;
+	padding-top:48px;
+	padding-left:108px;
+	margin-top:0px;
 
 	}
