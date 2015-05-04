@@ -74,6 +74,7 @@ body {
 .navbuttons {
 	float:left;
 	margin:auto;
+	margin-right:50px;
 	
 
 	}
@@ -98,9 +99,10 @@ body {
 	border:1px solid #b46021;
 	display:block;
 	width:150px;
-	height:30px;
+	height:20px;
 	text-align:center;
-	padding-top:5px;
+	padding-top:2px;
+	padding-bottom:2px;
 	}
 
 .navbuttons ul li a:hover {
