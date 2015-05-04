@@ -22,3 +22,17 @@ body {
 	
 	}
 	
+.header {
+	margin:auto;
+	display:block;
+	float:left;
+	background-color:#31221e;
+
+	}
+	
+.header h1 {
+	font-family:Helvetica;
+	color:#e7c004;
+	
+
+	}
