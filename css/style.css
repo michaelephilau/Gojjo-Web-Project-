@@ -56,3 +56,36 @@ body {
 	background-color:#e7c004;
 
 	}
+
+.navbuttons {
+	float:left;
+	margin-right: 13px;	
+	}
+	
+.navbuttons ul {
+	margin-left:0px;
+	padding-left: 0px;
+	}
+
+
+.navbuttons ul li{
+	font-family:Helvetica, sans-serif;
+	font-size:10px;
+	list-style-type:none;
+	text-indent:10px;
+	}
+	
+.navbuttons ul li a{
+	color:#e7c004;
+	text-decoration:none;
+	border-top:1px solid #b46021;
+	display:block;
+	width:150px;
+	height:30px;
+	
+	}
+
+.navbuttons ul li a:hover {
+	background-color: #701124;
+	
+	}
