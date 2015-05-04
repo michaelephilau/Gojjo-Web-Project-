@@ -112,12 +112,28 @@ body {
 	}
 	
 .container{
-	margin:auto;
+	margin:0 auto;
 	width:1020px;
 	height:725px;
 	background:url('../images/background.png') no-repeat;
 	background-color:#31221e;
 	
+	}
+	
+.logobody{
+	margin:0 auto;
+	width:350px;
+	height:350px;
+	border:2px solid #b46021;
+	float:center;
+	border-radius:200px;
+
+	}
+	
+.logobody .bodylogo{
+	margin:auto;
+	margin-left:125px;
+	margin-top:100px;
 	}
 	
 .footer{
