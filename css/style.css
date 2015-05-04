@@ -46,3 +46,13 @@ body {
 	margin-left:108px;
 
 	}
+	
+.headerline{
+	display:block;
+	margin:auto;
+	float:left;
+	height:10px;
+	width:1020px;
+	background-color:#e7c004;
+
+	}
