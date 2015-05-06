@@ -120,6 +120,33 @@ body {
 	
 	}
 	
+.container h1{
+	font-size:16px;
+	font-family:Helvetica;
+	color:#e7c004;
+	position:relative;
+	text-align:center;
+	top:30px;
+	}
+
+.container h2{
+	font-size:16px;
+	font-family:Helvetica;
+	color:#e7c004;
+	position:relative;
+	text-align:center;
+	top:35px;
+	}
+	
+.container h3{
+	font-size:16px;
+	font-family:Helvetica;
+	color:#e7c004;
+	position:relative;
+	text-align:center;
+	top:40px;
+	}
+	
 .logobody{
 	margin:0 auto;
 	width:350px;
@@ -137,7 +164,7 @@ body {
 	height:500px;
 	border:2px solid #b46021;
 	border-radius:50%;
-	top:120px;
+	top:50px;
 	position:relative;
 	overflow:hidden;
 	
