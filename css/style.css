@@ -74,7 +74,7 @@ body {
 .navbuttons {
 	float:left;
 	margin:auto;
-	margin-right:50px;
+	margin-right:36px;
 	
 
 	}
@@ -125,15 +125,97 @@ body {
 	width:350px;
 	height:350px;
 	border:2px solid #b46021;
-	float:center;
-	border-radius:200px;
-
+	border-radius:50%;
+	top:80px;
+	position:relative;
+	
 	}
 	
 .logobody .bodylogo{
 	margin:auto;
 	margin-left:125px;
-	margin-top:100px;
+	margin-top:125px;
+	
+	}
+	
+.aboutbox{
+	margin:0 auto;
+	width:150px;
+	height:150px;
+	border:2px solid #b46021;
+	border-radius:50%;
+	top:120px;
+	position:relative;
+	transition:background-color 0.2s;
+	
+	
+	}
+
+.aboutbox:hover{
+	background-color: #53321f;
+	opacity:0.4px;
+	
+	}
+	
+.aboutbox .aboutimage{
+	margin:0 auto;
+	margin-top:35px;
+	display:block;
+	
+	}
+	
+.menuhubbox{
+	margin:0 auto;
+	float:left;
+	width:150px;
+	height:150px;
+	border:2px solid #b46021;
+	border-radius:50%;
+	top:120px;
+	position:relative;
+	transition:background-color 0.2s;
+	
+	
+	}
+
+.menuhubbox:hover{
+	background-color: #53321f;
+	opacity:0.4px;
+	
+	}
+	
+.menuhubbox .menuhubimage{
+	margin:0 auto;
+	margin-top:35px;
+	display:block;
+	
+	}
+	
+.contactbox{
+	margin:0 auto;
+	float:left;
+	width:150px;
+	height:150px;
+	border:2px solid #b46021;
+	border-radius:50%;
+	top:120px;
+	position:relative;
+	transition:background-color 0.2s;
+	
+	
+	}
+
+.contactbox:hover{
+	background-color: #53321f;
+	opacity:0.4px;
+	
+	}
+	
+.contactbox .contactimage{
+	margin:0 auto;
+	margin-top:35px;
+	display:block;
+	
 	}
 	
 .footer{
