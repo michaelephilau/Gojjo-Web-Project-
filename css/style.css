@@ -138,8 +138,15 @@ body {
 	
 	}
 	
+.bodylinks{
+	position:relative;
+	margin:0 auto;
+
+	}
+	
 .aboutbox{
 	margin:0 auto;
+	margin-left:25%
 	float:left;
 	width:150px;
 	height:150px;
@@ -167,12 +174,13 @@ body {
 	
 .menuhubbox{
 	margin:0 auto;
+	margin-left:25%;
+	bottom:100px;
 	float:left;
 	width:150px;
 	height:150px;
 	border:2px solid #b46021;
 	border-radius:50%;
-	top:120px;
 	position:relative;
 	transition:background-color 0.2s;
 	
@@ -194,12 +202,13 @@ body {
 	
 .contactbox{
 	margin:0 auto;
+	margin-left:20%;
+	bottom:100px;
 	float:left;
 	width:150px;
 	height:150px;
 	border:2px solid #b46021;
 	border-radius:50%;
-	top:120px;
 	position:relative;
 	transition:background-color 0.2s;
 	
