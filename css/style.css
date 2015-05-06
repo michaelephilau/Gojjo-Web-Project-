@@ -130,10 +130,23 @@ body {
 	position:relative;
 	
 	}
+
+.mapembed{
+	margin:0 auto;
+	width:350px;
+	height:350px;
+	border:2px solid #b46021;
+	border-radius:50%;
+	top:80px;
+	position:relative;
+	overflow:hidden;
+	
+
+}
 	
 .logobody .bodylogo{
 	margin:auto;
-	margin-left:125px;
+	margin-left:130px;
 	margin-top:125px;
 	
 	}
