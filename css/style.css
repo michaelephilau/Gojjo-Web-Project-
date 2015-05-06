@@ -126,7 +126,7 @@ body {
 	color:#e7c004;
 	position:relative;
 	text-align:center;
-	top:30px;
+	top:25px;
 	}
 
 .container h2{
@@ -135,7 +135,7 @@ body {
 	color:#e7c004;
 	position:relative;
 	text-align:center;
-	top:35px;
+	top:30px;
 	}
 	
 .container h3{
@@ -144,7 +144,7 @@ body {
 	color:#e7c004;
 	position:relative;
 	text-align:center;
-	top:40px;
+	top:35px;
 	}
 	
 .logobody{
@@ -164,7 +164,7 @@ body {
 	height:500px;
 	border:2px solid #b46021;
 	border-radius:50%;
-	top:50px;
+	top:30px;
 	position:relative;
 	overflow:hidden;
 	
