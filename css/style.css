@@ -202,7 +202,11 @@ body {
 .aboutbox:hover{
 	background-color: #53321f;
 	opacity:0.4px;
-	
+	}
+
+.aboutbox:hover p{
+	display:block;
+
 	}
 	
 .aboutbox .aboutimage{
@@ -210,6 +214,42 @@ body {
 	margin-top:35px;
 	display:block;
 	
+	}
+	
+.aboutbox p{
+	position:relative;
+	margin:auto;
+	text-align:center;
+	top:35px;
+	font-family:Helvetica;
+	font-size:22px;
+	color:#e7c004;
+	display:none;
+
+	}
+	
+.menuhubbox p{
+	position:relative;
+	margin:auto;
+	text-align:center;
+	top:35px;
+	font-family:Helvetica;
+	font-size:22px;
+	color:#e7c004;
+	display:none;
+
+	}
+	
+.contactbox p{
+	position:relative;
+	margin:auto;
+	text-align:center;
+	top:35px;
+	font-family:Helvetica;
+	font-size:22px;
+	color:#e7c004;
+	display:none;
+
 	}
 	
 .menuhubbox{
@@ -232,6 +272,10 @@ body {
 	opacity:0.4px;
 	
 	}
+	
+.menuhubbox:hover p{
+	display:block;
+}
 	
 .menuhubbox .menuhubimage{
 	margin:0 auto;
@@ -259,6 +303,10 @@ body {
 	background-color: #53321f;
 	opacity:0.4px;
 	
+	}
+	
+.contactbox:hover p{
+	display:block;
 	}
 	
 .contactbox .contactimage{
