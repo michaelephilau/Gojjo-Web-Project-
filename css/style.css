@@ -103,11 +103,14 @@ body {
 	text-align:center;
 	padding-top:2px;
 	padding-bottom:2px;
+	transition:background-color 0.2s;
+
 	}
 
 .navbuttons ul li a:hover {
 	background-color: #53321f;
 	opacity:0.4px;
+	
 	
 	}
 	
