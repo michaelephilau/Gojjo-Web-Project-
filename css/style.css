@@ -324,10 +324,7 @@ body {
 	margin:auto;
 	width:1020px;
 	height:70px;
-	display:flex;
-	flex-direction:row;
-	justify-content:space-around;
-	background-color:#31221e;
+	display:block;
 
 	}
 	
@@ -337,11 +334,12 @@ body {
 	color:#e7c004;
 
 }
-
+	
 .footerbuttons ul {
 	margin:auto;
 	padding-left: 0px;
 	float:left;
+
 	}
 
 
@@ -366,6 +364,26 @@ body {
 
 	}
 	
+.fb{
+	float:left;
+	margin:0 auto;
+}
+
+.twitter{
+	margin:0 auto;
+	float:left;
+}
+
+.gplus{
+	float:left;
+	margin:0 auto;
+}
+	
+.pignose{
+	float:left;
+	margin:0 auto;	
+}	
+
 .clear{
 	clear:both;
 	}
