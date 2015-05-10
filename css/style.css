@@ -574,6 +574,23 @@ body {
 	
 	}
 	
+.allergyicons{
+	display:block;
+	height:100px;
+	width:700px;
+	border:3px solid #b46021;
+	position:relative;
+	margin:0 auto;
+	top:20px;
+
+	}
+	
+.allergyicons h1{
+	margin:auto;
+	top:0px;
+	font-size:20px;
+}
+	
 .footer{
 	margin:auto;
 	width:1020px;
