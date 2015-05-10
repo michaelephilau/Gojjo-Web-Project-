@@ -346,24 +346,80 @@ body {
 	}
 
 .firstfloor{
-
+	margin:0 auto;
+	bottom:100px;
+	float:left;
+	width:150px;
+	height:150px;
+	border:2px solid #b46021;
+	border-radius:50%;
+	position:relative;
+	transition:background-color 0.2s;
 
 	}
 	
 .firstfloorpatio{
-
+	margin:0 auto;
+	bottom:100px;
+	float:left;
+	width:150px;
+	height:150px;
+	border:2px solid #b46021;
+	border-radius:50%;
+	position:relative;
+	transition:background-color 0.2s;
 
 	}
 	
 .secondfloor{
-
+	margin:0 auto;
+	bottom:100px;
+	float:left;
+	width:150px;
+	height:150px;
+	border:2px solid #b46021;
+	border-radius:50%;
+	position:relative;
+	transition:background-color 0.2s;
 
 	}
 
 .secondfloorpatio{
-
+	margin:0 auto;
+	bottom:100px;
+	float:left;
+	width:150px;
+	height:150px;
+	border:2px solid #b46021;
+	border-radius:50%;
+	position:relative;
+	transition:background-color 0.2s;
 
 	}	
+	
+.firstfloor:hover{
+	background-color: #53321f;
+	opacity:0.4px;
+	
+	}
+	
+.firstfloorpatio:hover{
+	background-color: #53321f;
+	opacity:0.4px;
+	
+	}
+	
+.secondfloor:hover{
+	background-color: #53321f;
+	opacity:0.4px;
+	
+	}
+	
+.secondfloorpatio:hover{
+	background-color: #53321f;
+	opacity:0.4px;
+	
+	}
 	
 .footer{
 	margin:auto;
@@ -441,7 +497,6 @@ body {
 
 	}
 		
-
 .clear{
 	clear:both;
 	}
