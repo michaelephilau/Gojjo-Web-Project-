@@ -324,16 +324,29 @@ body {
 	margin:auto;
 	width:1020px;
 	height:70px;
-	display:block;
-
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
 	}
 	
-.footer p{
+.footertext{
+
+
+	}	
+
+.footertext h1{
 	font-family:Helvetica;
 	font-size:12px;
 	color:#e7c004;
 
-}
+	}
+
+.footertext h2{
+	font-family:Helvetica;
+	font-size:12px;
+	color:#e7c004;
+
+	}
 
 .footerbuttons ul {
 	margin:auto;
