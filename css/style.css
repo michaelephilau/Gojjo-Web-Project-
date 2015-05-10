@@ -335,11 +335,6 @@ body {
 
 }
 
-.footerbuttons{
-
-
-	}
-	
 .footerbuttons ul {
 	margin:auto;
 	padding-left: 0px;
@@ -347,6 +342,7 @@ body {
 	display:flex;
 	flex-direction:row;
 	justify-content:space-around;
+
 	}
 
 
@@ -354,42 +350,42 @@ body {
 	font-family:Helvetica, sans-serif;
 	font-size:18px;
 	list-style-type:none;
-	margin-top:10px;
+
+	
 	}
 	
 .footerbuttons ul li a{
 	color:#e7c004;
 	text-decoration:none;
 	border:1px solid #b46021;
+	border-radius:60px;
 	display:block;
-	width:50px;
-	height:50px;
+	width:60px;
+	height:60px;
 	text-align:center;
-	padding-top:2px;
-	padding-bottom:2px;
 	transition:background-color 0.2s;
+	}
+	
+.footerbuttons ul li a.fb img{
+	margin-top:15px;
 
 	}
 	
-.fb{
-	float:left;
-	margin:0 auto;
-}
+.footerbuttons ul li a.twitter img{
+	margin-top:15px;
 
-.twitter{
-	margin:0 auto;
-	float:left;
-}
-
-.gplus{
-	float:left;
-	margin:0 auto;
-}
+	}
 	
-.pignose{
-	float:left;
-	margin:0 auto;	
-}	
+.footerbuttons ul li a.gplus img{
+	margin-top:15px;
+
+	}
+	
+.footerbuttons ul li a.pignose img{
+	margin-top:20px;
+
+	}
+		
 
 .clear{
 	clear:both;
