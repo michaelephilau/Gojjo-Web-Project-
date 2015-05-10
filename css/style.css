@@ -365,13 +365,17 @@ body {
 	
 	}
 	
-.firstfloor a{
+.firstfloor .ff{
+	display:block;
+	height:100px;
+	width:100px;
 	text-decoration:none;
-	text-align:center;
 	list-style-type:none;
 	font-family:Helvetica, sans-serif;
 	font-size:20px;
 	color:#e7c004;
+	margin-left:35px;
+	margin-top:65px;
 	}
 	
 .firstfloorpatio{
@@ -389,13 +393,15 @@ body {
 
 	}
 	
-.firstfloorpatio a{
+.firstfloorpatio .ffp{
+	display:block;
 	text-decoration:none;
-	text-align:center;
 	list-style-type:none;
 	font-family:Helvetica, sans-serif;
 	font-size:20px;
 	color:#e7c004;
+	margin-top:65px;
+	text-align:center;
 	}
 	
 .secondfloor{
@@ -413,13 +419,17 @@ body {
 
 	}
 	
-.secondfloor a{
+.secondfloor .sf{
+	display:block;
+	height:100px;
+	width:100px;
 	text-decoration:none;
-	text-align:center;
 	list-style-type:none;
 	font-family:Helvetica, sans-serif;
 	font-size:20px;
 	color:#e7c004;
+	margin-left:35px;
+	margin-top:65px;
 	}
 
 .secondfloorpatio{
@@ -436,13 +446,15 @@ body {
 
 	}
 
-.secondfloorpatio a{
+.secondfloorpatio .sfp{
+	display:block;
 	text-decoration:none;
-	text-align:center;
 	list-style-type:none;
 	font-family:Helvetica, sans-serif;
 	font-size:20px;
 	color:#e7c004;
+	margin-top:65px;
+	text-align:center;
 	}	
 	
 .firstfloor:hover{
