@@ -334,12 +334,19 @@ body {
 	color:#e7c004;
 
 }
+
+.footerbuttons{
+
+
+	}
 	
 .footerbuttons ul {
 	margin:auto;
 	padding-left: 0px;
 	float:left;
-
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
 	}
 
 
