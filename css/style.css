@@ -350,6 +350,93 @@ body {
 	margin:0 auto;
 
 	}	
+	
+.brunchbox{	
+	margin:0 auto;
+	margin-left:30%;
+	float:left;
+	width:150px;
+	height:150px;
+	border:2px solid #b46021;
+	border-radius:50%;
+	top:120px;
+	position:relative;
+	transition:background-color 0.2s;
+	
+	
+	}
+
+.brunchbox:hover{
+	background-color: #53321f;
+	opacity:0.4px;
+	}
+
+.brunchbox:hover p{
+	display:block;
+
+	}
+	
+.brunchbox .brunchimage{
+	margin:0 auto;
+	margin-top:35px;
+	display:block;
+	
+	}
+	
+.brunchbox p{
+	position:relative;
+	margin:auto;
+	text-align:center;
+	top:35px;
+	font-family:Helvetica, sans-serif;
+	font-size:22px;
+	color:#e7c004;
+	display:none;
+
+	}
+	
+.fullbox{	
+	margin:0 auto;
+	margin-left:55%;
+	float:left;
+	width:150px;
+	height:150px;
+	border:2px solid #b46021;
+	border-radius:50%;
+	position:relative;
+	transition:background-color 0.2s;
+	bottom:34px;
+	
+	}
+
+.fullbox:hover{
+	background-color: #53321f;
+	opacity:0.4px;
+	}
+
+.fullbox:hover p{
+	display:block;
+
+	}
+	
+.fullbox .fullmenuimage{
+	margin:0 auto;
+	margin-top:35px;
+	display:block;
+	
+	}
+	
+.fullbox p{
+	position:relative;
+	margin:auto;
+	text-align:center;
+	top:35px;
+	font-family:Helvetica, sans-serif;
+	font-size:22px;
+	color:#e7c004;
+	display:none;
+
+	}	
 
 .aboutbodylinks{
 	position:relative;
