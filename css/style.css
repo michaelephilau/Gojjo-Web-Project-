@@ -329,7 +329,8 @@ body {
 	top:30px;
 	position:relative;
 	overflow:hidden;
-}
+	
+	}
 
 .aboutustext p{
 	margin:0 auto;
@@ -342,7 +343,27 @@ body {
 	font-size:25px;
 	color:#e7c004;
 
-}
+	}
+
+.firstfloor{
+
+
+	}
+	
+.firstfloorpatio{
+
+
+	}
+	
+.secondfloor{
+
+
+	}
+
+.secondfloorpatio{
+
+
+	}	
 	
 .footer{
 	margin:auto;
