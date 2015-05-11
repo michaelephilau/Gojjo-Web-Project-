@@ -750,6 +750,8 @@ body {
 	margin:0px;
 	border:1px solid #b46021;
 	margin-top:0px;
+	overflow:hidden;
+	overflow-y:scroll;
 
 	}
 	
@@ -982,14 +984,6 @@ body {
 	text-align:center;
 	transition:background-color 0.2s;
 	margin-right:10px;
-
-	}
-
-.navbuttons ul li a:hover {
-	background-color: #53321f;
-	opacity:0.4px;
-	
-	
 	}
 	
 .container{
@@ -1544,7 +1538,7 @@ body {
 .brunchdiv .item  .namebox{
 	display:block;
 	height:75px;
-	width:100px;
+	width:300px;
 	margin:0px;
 	border:1px solid #b46021;
 	margin-top:0px;
@@ -1574,11 +1568,11 @@ body {
 .brunchdiv .item  .namebox2{
 	display:block;
 	height:75px;
-	width:100px;
+	width:300px;
 	margin:0px;
 	border:1px solid #b46021;
 	margin-top:0px;
-
+	
 	}
 	
 .brunchdiv .item .namebox2 h1{
@@ -1609,7 +1603,8 @@ body {
 	font-family:Helvetica, sans-serif;
 	font-size:9px;
 	color:#e7c004;
-
+	
+	
 	}
 	
 .brunchdiv .item  .allergybox{
@@ -1641,7 +1636,7 @@ body {
 	
 .brunchdiv .item  .pricebox h1{
 	font-family:Helvetica, sans-serif;
-	font-size:25px;
+	font-size:15px;
 	text-align:center;
 	color:#e7c004;
 
