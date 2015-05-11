@@ -995,7 +995,7 @@ body {
 .container{
 	margin:0 auto;
 	width:500px;
-	height:725px;
+	height:625px;
 	background:url('../images/background.png') no-repeat;
 	background-color:#31221e;
 	
@@ -1068,7 +1068,6 @@ body {
 	
 .aboutbox{
 	margin:0 auto;
-	margin-left:25%
 	float:left;
 	width:150px;
 	height:150px;
@@ -1106,7 +1105,7 @@ body {
 	font-family:Helvetica, sans-serif;
 	font-size:22px;
 	color:#e7c004;
-	display:none;
+	display:block;
 
 	}
 	
@@ -1118,7 +1117,7 @@ body {
 	font-family:Helvetica, sans-serif;
 	font-size:22px;
 	color:#e7c004;
-	display:none;
+	display:block;
 
 	}
 	
@@ -1130,13 +1129,12 @@ body {
 	font-family:Helvetica, sans-serif;
 	font-size:22px;
 	color:#e7c004;
-	display:none;
+	display:block;
 
 	}
 	
 .menuhubbox{
 	margin:0 auto;
-	margin-left:25%;
 	bottom:100px;
 	float:left;
 	width:150px;
@@ -1168,7 +1166,6 @@ body {
 	
 .contactbox{
 	margin:0 auto;
-	margin-left:20%;
 	bottom:100px;
 	float:left;
 	width:150px;
@@ -1269,7 +1266,7 @@ body {
 	font-family:Helvetica, sans-serif;
 	font-size:22px;
 	color:#e7c004;
-	display:none;
+	display:block;
 
 	}
 	
@@ -1312,7 +1309,7 @@ body {
 	font-family:Helvetica, sans-serif;
 	font-size:22px;
 	color:#e7c004;
-	display:none;
+	display:block;
 
 	}	
 
@@ -1573,8 +1570,8 @@ body {
 	
 .brunchdiv{
 	display:block;
-	width:900px;
-	height:500px;
+	width:480px;
+	height:400px;
 	position:relative;
 	margin:0 auto;
 	top:15px;
@@ -1594,7 +1591,7 @@ body {
 .brunchdiv .item  .namebox{
 	display:block;
 	height:75px;
-	width:200px;
+	width:100px;
 	margin:0px;
 	border:1px solid #b46021;
 	margin-top:0px;
@@ -1603,7 +1600,7 @@ body {
 	
 .brunchdiv .item .namebox h1{
 	margin:0 auto;
-	font-size:16px;
+	font-size:12px;
 	font-family:Helvetica, sans-serif;
 	color:#e7c004;
 	position:relative;
@@ -1616,7 +1613,7 @@ body {
 	margin:0 auto;
 	text-align:left;
 	font-family:Helvetica, sans-serif;
-	font-size:12px;
+	font-size:9px;
 	color:#e7c004;
 
 	}
@@ -1624,7 +1621,7 @@ body {
 .brunchdiv .item  .namebox2{
 	display:block;
 	height:75px;
-	width:200px;
+	width:100px;
 	margin:0px;
 	border:1px solid #b46021;
 	margin-top:0px;
@@ -1632,16 +1629,24 @@ body {
 	}
 	
 .brunchdiv .item .namebox2 h1{
-	margin-top:0px;
-	top:0px;
-	text-align:left;
+	margin:0 auto;
+	font-size:12px;
+	font-family:Helvetica, sans-serif;
+	color:#e7c004;
+	position:relative;
+	text-align:center;
+	top:30px;	
 
 	}
 	
 .brunchdiv .item .namebox2 h2{
-	margin-top:0px;
-	top:0px;
-	text-align:left;
+	margin:0 auto;
+	font-size:12px;
+	font-family:Helvetica, sans-serif;
+	color:#e7c004;
+	position:relative;
+	text-align:center;
+	top:30px;	
 
 	}
 	
@@ -1649,7 +1654,7 @@ body {
 	margin:0 auto;
 	text-align:left;
 	font-family:Helvetica, sans-serif;
-	font-size:12px;
+	font-size:9px;
 	color:#e7c004;
 
 	}
@@ -1657,7 +1662,7 @@ body {
 .brunchdiv .item  .allergybox{
 	display:block;
 	height:75px;
-	width:400px;
+	width:300px;
 	margin:0px;
 
 	}
@@ -1675,7 +1680,7 @@ body {
 .brunchdiv .item  .pricebox{
 	display:block;
 	height:75px;
-	width:200px;
+	width:100px;
 	margin:0px;
 	border:1px solid #b46021;
 
@@ -1703,7 +1708,6 @@ body {
 	font-size:12px;
 	color:#e7c004;
 	text-align:center;
-
 	}
 
 .footertext h2{
@@ -1711,7 +1715,6 @@ body {
 	font-size:12px;
 	color:#e7c004;
 	text-align:center;
-
 	}
 
 .footerbuttons ul {
@@ -1721,7 +1724,9 @@ body {
 	display:flex;
 	flex-direction:row;
 	justify-content:space-around;
-
+	margin-top:35px;
+	margin-left:25%;
+	margin-bottom:5px;
 	}
 
 .footerbuttons ul li{
@@ -1729,7 +1734,6 @@ body {
 	font-size:18px;
 	list-style-type:none;
 
-	
 	}
 	
 .footerbuttons ul li a{
