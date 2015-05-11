@@ -603,12 +603,46 @@ body {
 .brunchdiv{
 	display:block;
 	width:900px;
-	height:600px;
+	height:100%;
 	position:relative;
 	margin:0 auto;
 	border:3px solid #b46021;
 	top:35px;
 	
+	}
+	
+.brunchdiv .item{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	margin-top:20px;
+	}
+	
+.brunchdiv .item  .namebox{
+	display:block;
+	height:75px;
+	width:200px;
+	margin:0px;
+	border:1px solid #b46021;
+
+	}
+	
+.brunchdiv .item  .allergybox{
+	display:block;
+	height:75px;
+	width:200px;
+	margin:0px;
+	border:1px solid #b46021;
+
+	}
+	
+.brunchdiv .item  .pricebox{
+	display:block;
+	height:75px;
+	width:200px;
+	margin:0px;
+	border:1px solid #b46021;
+
 	}
 	
 .footer{
