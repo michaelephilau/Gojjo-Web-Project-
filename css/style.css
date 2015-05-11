@@ -995,7 +995,6 @@ body {
 .container{
 	margin:0 auto;
 	width:500px;
-	height:625px;
 	background:url('../images/background.png') no-repeat;
 	background-color:#31221e;
 	
@@ -1031,12 +1030,13 @@ body {
 	
 .logobody{
 	margin:0 auto;
-	width:350px;
-	height:350px;
+	width:250px;
+	height:250px;
 	border:2px solid #b46021;
 	border-radius:50%;
 	top:80px;
 	position:relative;
+	display:none;
 	
 	}
 
@@ -1046,7 +1046,7 @@ body {
 	height:450px;
 	border:2px solid #b46021;
 	border-radius:50%;
-	top:30px;
+	top:60px;
 	position:relative;
 	overflow:hidden;
 	
@@ -1055,8 +1055,8 @@ body {
 	
 .logobody .bodylogo{
 	margin:auto;
-	margin-left:130px;
-	margin-top:125px;
+	margin-left:75px;
+	margin-top:62.5px;
 	
 	}
 	
@@ -1069,30 +1069,20 @@ body {
 .aboutbox{
 	margin:0 auto;
 	float:left;
-	width:150px;
-	height:150px;
+	width:130px;
+	height:130px;
 	border:2px solid #b46021;
 	border-radius:50%;
-	top:120px;
+	top:0px;
 	position:relative;
+	left:185px;
 	transition:background-color 0.2s;
-	
-	
-	}
-
-.aboutbox:hover{
-	background-color: #53321f;
-	opacity:0.4px;
-	}
-
-.aboutbox:hover p{
-	display:block;
-
+	margin-top:250px;
 	}
 	
 .aboutbox .aboutimage{
 	margin:0 auto;
-	margin-top:35px;
+	margin-top:20px;
 	display:block;
 	
 	}
@@ -1101,7 +1091,7 @@ body {
 	position:relative;
 	margin:auto;
 	text-align:center;
-	top:35px;
+	top:20px;
 	font-family:Helvetica, sans-serif;
 	font-size:22px;
 	color:#e7c004;
@@ -1113,7 +1103,7 @@ body {
 	position:relative;
 	margin:auto;
 	text-align:center;
-	top:35px;
+	top:15px;
 	font-family:Helvetica, sans-serif;
 	font-size:22px;
 	color:#e7c004;
@@ -1125,7 +1115,7 @@ body {
 	position:relative;
 	margin:auto;
 	text-align:center;
-	top:50px;
+	top:20px;
 	font-family:Helvetica, sans-serif;
 	font-size:22px;
 	color:#e7c004;
@@ -1137,29 +1127,20 @@ body {
 	margin:0 auto;
 	bottom:100px;
 	float:left;
-	width:150px;
-	height:150px;
+	width:130px;
+	height:130px;
 	border:2px solid #b46021;
 	border-radius:50%;
 	position:relative;
 	transition:background-color 0.2s;
+	margin-top:150px;
+	margin-left:50px;
 	
-	
-	}
-
-.menuhubbox:hover{
-	background-color: #53321f;
-	opacity:0.4px;
-	
-	}
-	
-.menuhubbox:hover p{
-	display:block;
 	}
 	
 .menuhubbox .menuhubimage{
 	margin:0 auto;
-	margin-top:35px;
+	margin-top:25px;
 	display:block;
 	
 	}
@@ -1168,26 +1149,17 @@ body {
 	margin:0 auto;
 	bottom:100px;
 	float:left;
-	width:150px;
-	height:150px;
+	width:130px;
+	height:130px;
 	border:2px solid #b46021;
 	border-radius:50%;
 	position:relative;
 	transition:background-color 0.2s;
-	
+	margin-left:0px;
+	bottom:0px;
 	
 	}
 
-.contactbox:hover{
-	background-color: #53321f;
-	opacity:0.4px;
-	
-	}
-	
-.contactbox:hover p{
-	display:block;
-	}
-	
 .contactbox .contactimage{
 	margin:0 auto;
 	margin-top:35px;
