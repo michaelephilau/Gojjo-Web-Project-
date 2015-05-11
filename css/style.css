@@ -887,7 +887,7 @@ body {
 
 	}
 	
-@media (max-width:400px) {
+@media (max-width:720px) {
 	body {
 	margin:auto;
 	display: block;
@@ -936,7 +936,7 @@ body {
 	font-family:Helvetica, sans-serif;
 	color:#e7c004;
 	font-size:14px;
-	margin-top:30px;
+	margin-top:0px;
 	padding-top:10px;
 	text-align:center;
 	margin-left:0px;
@@ -975,8 +975,7 @@ body {
 	display:flex;
 	flex-direction:row;
 	justify-content:space-around;
-	margin-left:20px;
-
+	margin-left:7.5%;
 	}
 
 
