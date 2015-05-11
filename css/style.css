@@ -710,6 +710,7 @@ body {
 	flex-direction:row;
 	justify-content:space-around;
 	margin-top:20px;
+	
 	}
 	
 .brunchdiv .item  .namebox{
@@ -722,14 +723,77 @@ body {
 
 	}
 	
-.brunchdiv .item .namebox h2{
+.brunchdiv .item .namebox h1{
+	margin:0 auto;
+	font-size:16px;
+	font-family:Helvetica, sans-serif;
+	color:#e7c004;
+	position:relative;
+	text-align:center;
+	top:30px;	
+
+	}
+	
+.brunchdiv .item .namebox p{
+	margin:0 auto;
+	text-align:left;
+	font-family:Helvetica, sans-serif;
+	font-size:12px;
+	color:#e7c004;
+
+	}
+
+.brunchdiv .item  .namebox2{
+	display:block;
+	height:75px;
+	width:200px;
+	margin:0px;
+	border:1px solid #b46021;
+	margin-top:0px;
+
+	}
+	
+.brunchdiv .item .namebox2 h1{
 	margin-top:0px;
 	top:0px;
 	text-align:left;
 
 	}
 	
-.brunchdiv .item .namebox p{
+.brunchdiv .item .namebox2 p{
+	margin:0 auto;
+	text-align:left;
+	font-family:Helvetica, sans-serif;
+	font-size:12px;
+	color:#e7c004;
+
+	}
+	
+.brunchdiv .item  .namebox3{
+	display:block;
+	height:75px;
+	width:200px;
+	margin:0px;
+	border:1px solid #b46021;
+	margin-top:0px;
+
+	}
+	
+.brunchdiv .item .namebox3 h1{
+	margin-top:20px;
+	top:0px;
+	text-align:center;
+
+	}	
+
+.brunchdiv .item .namebox3 h2{
+	margin-top:0px;
+	top:0px;
+	text-align:center;
+
+	}	
+	
+.brunchdiv .item .namebox3 p{
 	margin:0 auto;
 	text-align:left;
 	font-family:Helvetica, sans-serif;
@@ -743,9 +807,13 @@ body {
 	height:75px;
 	width:400px;
 	margin:0px;
-	border:1px solid #b46021;
 
 	}
+	
+.brunchdiv .item .allergybox img{
+	margin-left:15px;
+
+}
 	
 .brunchdiv .item  .pricebox{
 	display:block;
@@ -753,6 +821,14 @@ body {
 	width:200px;
 	margin:0px;
 	border:1px solid #b46021;
+
+	}
+	
+.brunchdiv .item  .pricebox h1{
+	font-family:Helvetica, sans-serif;
+	font-size:25px;
+	text-align:center;
+	color:#e7c004;
 
 	}
 	
