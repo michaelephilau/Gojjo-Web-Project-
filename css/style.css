@@ -1115,7 +1115,7 @@ body {
 	position:relative;
 	margin:auto;
 	text-align:center;
-	top:20px;
+	top:30px;
 	font-family:Helvetica, sans-serif;
 	font-size:22px;
 	color:#e7c004;
@@ -1157,12 +1157,14 @@ body {
 	transition:background-color 0.2s;
 	margin-left:0px;
 	bottom:0px;
+	margin-top:450px;
+	right:132px;
 	
 	}
 
 .contactbox .contactimage{
 	margin:0 auto;
-	margin-top:35px;
+	margin-top:25px;
 	display:block;
 	
 	}
