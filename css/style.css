@@ -887,7 +887,7 @@ body {
 
 	}
 	
-@media (max-width:720px) {
+@media (max-width:500px) {
 	body {
 	margin:auto;
 	display: block;
@@ -899,7 +899,7 @@ body {
 	margin: auto;
 	display: block;
 	position:relative;
-	margin-left:175px;
+	margin-left:225px;
 	width:46px;
 	height:56px;
 	background-color:#31221e;
@@ -912,24 +912,9 @@ body {
 	flex-direction:column;
 	justify-content:space-around;
 	background-color:#31221e;
-	width:400px;
+	width:500px;
 	height:280px;
 
-	}
-	
-.logocontain{
-	flex: 1,1,0;
-
-	}
-	
-.hours{
-	flex:1,2,2;
-
-	}
-	
-.navbuttons{
-	flex:1,1,0;
-	
 	}
 	
 .header h1 {
@@ -956,7 +941,7 @@ body {
 	margin:auto;
 	float:left;
 	height:10px;
-	width:100%;
+	width:500px;
 	background-color:#e7c004;
 
 	}
@@ -975,7 +960,7 @@ body {
 	display:flex;
 	flex-direction:row;
 	justify-content:space-around;
-	margin-left:7.5%;
+	margin-left:25%;
 	}
 
 
@@ -1009,7 +994,7 @@ body {
 	
 .container{
 	margin:0 auto;
-	width:400px;
+	width:500px;
 	height:725px;
 	background:url('../images/background.png') no-repeat;
 	background-color:#31221e;
