@@ -597,25 +597,83 @@ body {
 	flex-direction:row;
 	justify-content:space-around;
 	height:50%;
-	width:50%;
+	width:100%;
 	margin:0 auto;
 	position:relative;
+	left:25px;
 	bottom:20px;
-	left:200px;
 	margin-top:10px;
-	top:1px;
-	margin-left:10px;
-	margin-right:10px;
+	top:.75px
 	}
 	
-.icons p{
+.icons h1{
 	font-family:Helvetica, sans-serif;
 	font-size:12px;
 	color:#e7c004;
-	position;relative;
-	margin:0 auto;
-	margin-top:60px;
+	margin-left:0px;
+	margin-right:0px;
+	position:relative;
+	top:37px;
+	right:53px;
+	}
 	
+.icons h2{
+	font-family:Helvetica, sans-serif;
+	font-size:12px;
+	color:#e7c004;
+	margin-left:0px;
+	margin-right:0px;
+	position:relative;
+	top:48px;
+	right:47px;
+	}
+	
+.icons h3{
+	font-family:Helvetica, sans-serif;
+	font-size:12px;
+	color:#e7c004;
+	margin-left:0px;
+	margin-right:0px;
+	position:relative;
+	top:47px;
+	right:41px;
+		
+	}
+	
+.icons h4{
+	font-family:Helvetica, sans-serif;
+	font-size:12px;
+	color:#e7c004;
+	margin-left:0px;
+	margin-right:0px;
+	position:relative;
+	top:43px;
+	right:44px;
+		
+	}
+	
+.icons h5{
+	font-family:Helvetica, sans-serif;
+	font-size:12px;
+	color:#e7c004;
+	margin-left:0px;
+	margin-right:0px;
+	position:relative;
+	top:39px;
+	right:41px;
+		
+	}
+	
+.icons h6{
+	font-family:Helvetica, sans-serif;
+	font-size:12px;
+	color:#e7c004;
+	margin-left:0px;
+	margin-right:0px;
+	position:relative;
+	top:30px;
+	right:78px;
+		
 	}
 
 .divtitle h1{
