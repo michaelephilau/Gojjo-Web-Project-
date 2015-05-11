@@ -589,7 +589,27 @@ body {
 	margin:auto;
 	top:0px;
 	font-size:20px;
-}
+	
+	}
+
+.divtitle h1{
+	font-family:Helvetica, sans-serif;
+	font-size:35px;
+	margin:auto;
+	
+
+	}	
+	
+.brunchdiv{
+	display:block;
+	width:900px;
+	height:600px;
+	position:relative;
+	margin:0 auto;
+	border:3px solid #b46021;
+	top:35px;
+	
+	}
 	
 .footer{
 	margin:auto;
