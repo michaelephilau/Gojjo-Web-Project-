@@ -578,10 +578,10 @@ body {
 	display:block;
 	height:115px;
 	width:700px;
-	border:3px solid #b46021;
 	position:relative;
 	margin:0 auto;
 	top:20px;
+	margin-bottom:10px;
 
 	}
 	
@@ -1452,18 +1452,19 @@ body {
 .allergyicons{
 	display:block;
 	height:115px;
-	width:700px;
-	border:3px solid #b46021;
+	width:100%;
+	margin-left:0px;
 	position:relative;
 	margin:0 auto;
 	top:20px;
+	margin-bottom:10px;
 
 	}
 	
 .allergyicons h1{
 	margin:auto;
 	top:0px;
-	font-size:20px;
+	font-size:15px;
 	
 	}
 	
@@ -1472,13 +1473,15 @@ body {
 	flex-direction:row;
 	justify-content:space-around;
 	height:50%;
-	width:100%;
+	width:450px;
 	margin:0 auto;
 	position:relative;
-	left:25px;
 	bottom:20px;
 	margin-top:10px;
-	top:.75px
+	top:5px;
+	margin-left:20px;
+	margin-right:0px;
+	
 	}
 	
 .icons h1{
@@ -1489,7 +1492,7 @@ body {
 	margin-right:0px;
 	position:relative;
 	top:37px;
-	right:53px;
+	right:35px;
 	}
 	
 .icons h2{
@@ -1500,7 +1503,7 @@ body {
 	margin-right:0px;
 	position:relative;
 	top:48px;
-	right:47px;
+	right:30px;
 	}
 	
 .icons h3{
@@ -1511,8 +1514,7 @@ body {
 	margin-right:0px;
 	position:relative;
 	top:47px;
-	right:41px;
-		
+	right:25px;
 	}
 	
 .icons h4{
@@ -1523,8 +1525,7 @@ body {
 	margin-right:0px;
 	position:relative;
 	top:43px;
-	right:44px;
-		
+	right:28px;		
 	}
 	
 .icons h5{
@@ -1535,7 +1536,7 @@ body {
 	margin-right:0px;
 	position:relative;
 	top:39px;
-	right:41px;
+	right:24px;
 		
 	}
 	
@@ -1547,7 +1548,7 @@ body {
 	margin-right:0px;
 	position:relative;
 	top:30px;
-	right:78px;
+	right:60px;
 		
 	}
 
@@ -1560,18 +1561,18 @@ body {
 
 .divtitle p{
 	font-family:Helvetica, sans-serif;
-	font-size:12px;
+	font-size:10px;
 	color:#e7c004;
 	margin:auto;
 	text-align:center;
-	padding-top:25px;
+	padding-top:30px;
 
 	}	
 	
 .brunchdiv{
 	display:block;
 	width:480px;
-	height:400px;
+	height:390px;
 	position:relative;
 	margin:0 auto;
 	top:15px;
