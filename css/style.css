@@ -1717,6 +1717,11 @@ body {
 	margin-top:15px;
 
 	}
+	
+#slide{
+	display:none;
+
+	}
 
 }
 
