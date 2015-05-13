@@ -1718,7 +1718,7 @@ body {
 
 	}
 	
-#slide{
+#gallery{
 	display:none;
 
 	}
@@ -1733,6 +1733,7 @@ body {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
     -webkit-border-radius: 10px;
     border-radius: 10px;
+	
 }
 
 ::-webkit-scrollbar-thumb {
@@ -1745,7 +1746,7 @@ body {
 	background: #e7c004; 
 }
 
-#slide{
+#gallery{
     height: 350px;
 	width:350px;
 	top:50px;
@@ -1757,7 +1758,7 @@ body {
 	transition: width 0.5s ease-out;
 }
 
-#slidecontent {
+#gallerycontent {
 	height: 600px;
     width: 4500px;
 	background:url('../images/homegallery.jpg');    
@@ -1779,7 +1780,7 @@ body {
 	
 }
 
-#slidecontentmenu {
+#gallerycontentmenu {
 	height: 600px;
     width: 4500px;
 	background:url('../images/slidergallery.jpg');    
@@ -1801,7 +1802,7 @@ body {
   
 }
 
-#slide .logo{
+#gallery .logo{
 	display:block;
 	margin:0 auto;
 	position:relative;
@@ -1809,7 +1810,7 @@ body {
 
 	}
 
-#slide p{
+#gallery p{
 	display:none;
 	text-align:center;
 	font-family:Helvetica, sans-serif;
@@ -1819,7 +1820,7 @@ body {
 	
 	}
 	
-#slide h1{
+#gallery h1{
 	display:none;
 	text-align:center;
 	font-family:Helvetica, sans-serif;
@@ -1827,55 +1828,66 @@ body {
 	color:#e7c004;
 	
 	}
+
+#gallery:hover #gallerycontent{
+	opacity:1.0;
+
+	}
 	
+#gallery:hover #gallerycontentmenu{
+	opacity:1.0;
+
+	}
 	
-#slide:hover p{
+#gallery:hover p{
 	display:block;
 	text-align:center;
 	position:relative;
 	margin:0 auto;
 	top:155px;
+	text-shadow:1px 1px black;
 	
 	}
 
-#slide:hover h1{
+#gallery:hover h1{
 	display:block;
 	text-align:center;
 	position:relative;
 	margin:0 auto;
 	top:145px;
-	
+	text-shadow:1px 1px black;
+
 	}
 	
-#slide:hover .logo{
+#gallery:hover .logo{
 	display:none;
 	
 	}
 	
-#slide:hover{
+#gallery:hover{
 	width:100%;
 	
 	}
 	
 @-webkit-keyframes startslide {
     0% { left: 0; }
-    100% { left: -3800px; }
+    100% { left: -3500px; }
 	
 	}
 @-moz-keyframes startslide {
     0% { left: 0; }
-    100% { left: -3800px; }
+    100% { left: -3500px; }
 	
 	}
 @-ms-keyframes startslide {
     0% { left: 0; }
-    100% { left: -3800px; }
+    100% { left: -3500px; }
 
 	}
 	
 @-o-keyframes startslide {
 	0% { left: 0; }
-    100% { left: -3800px; }
+    100% { left: -3500px; }
 
 	}
 
