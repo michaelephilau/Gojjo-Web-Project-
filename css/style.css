@@ -889,7 +889,7 @@ body {
 
 	}
 	
-@media (max-width:500px) {
+@media (max-width:720px) {
 	body {
 	margin:auto;
 	display: block;
