@@ -889,7 +889,8 @@ body {
 
 	}
 	
-@media (max-width:px) {
+
+@media (max-width:720px) {
 	body {
 	margin:auto;
 	display: block;
