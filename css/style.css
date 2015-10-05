@@ -45,19 +45,19 @@ body {
 .header h1 {
 	font-family:Helvetica, sans-serif;
 	color:#e7c004;
-	font-size:18px;
+	font-size:15px;
 	padding-top:48px;
 	margin-top:0px;
-	margin-left:108px;
+	margin-left:50px;
 
 	}
 
 .header h2 {
 	font-family:Helvetica, sans-serif;
 	color:#e7c004;
-	font-size:18px;
+	font-size:15px;
 	margin-top:0px;
-	margin-left:108px;
+	margin-left:50px;
 
 	}
 	
@@ -69,6 +69,16 @@ body {
 	width:100%;
 	background-color:#e7c004;
 
+	}
+	
+#special{
+	font-family:Helvetica, sans-serif;
+	color:#e7c004;
+	font-size:15px;
+	margin-top:0px;
+	margin-left:40px;
+	padding-top:48px;
+	
 	}
 
 .navbuttons {
