@@ -14,6 +14,7 @@
 				<h1>Hours:  Monday - Tuesday: 4pm to 2am</h1>
 				<h2>Wednesday - Sunday: 10am to 2am</h2>
 			</div>
+			<h3 id="special"></h3>
 			<div class="navbuttons">
 				<ul>
 					<li><a href="about.html" class="about" title="About Us"> About Us </a> </li>
@@ -61,5 +62,11 @@
 				</ul>
 			</div>
 		</div>
+	<script>
+	var d = new Date();
+	var days = ["Today is Sunday! Try our Special Dish!", "Today is Monday! Try our Special Dish!", "Today is Tuesday! Try our Special Dish!", "Today is Wednesday! Try our Special Dish",
+	"Today is Thursday! Try our Special Dish", "Today is Friday! Try our Special Dish!", "Today is Saturday! Try our Special Dish!"]
+	document.getElementById("special").innerHTML = days[d.getDay()];
+	</script>
 	</body>
 </html>
