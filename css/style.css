@@ -949,6 +949,17 @@ body {
 	margin-left:0px;
 	}
 	
+#special{
+	font-family:Helvetica, sans-serif;
+	color:#e7c004;
+	font-size:15px;
+	margin-top:0px;
+	margin-left:0px;
+	text-align: center;
+	padding:0px;
+	padding-top:10px;
+	}
+	
 .headerline{
 	display:block;
 	margin:auto;
