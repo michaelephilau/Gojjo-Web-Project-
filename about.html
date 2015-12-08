@@ -70,6 +70,17 @@
 	var days = ["Today is Sunday! Try our Special Dish!", "Today is Monday! Try our Special Dish!", "Today is Tuesday! Try our Special Dish!", "Today is Wednesday! Try our Special Dish",
 	"Today is Thursday! Try our Special Dish", "Today is Friday! Try our Special Dish!", "Today is Saturday! Try our Special Dish!"]
 	document.getElementById("special").innerHTML = days[d.getDay()];
+	
+	function special() {
+	  var xhttp = new XMLHttpRequest();
+	  xhttp.onreadystatechange = function() {
+		if (xhttp.readyState == 4 && xhttp.status == 200) {
+		  document.getElementById("special").innerHTML = xhttp.responseText;
+		}
+	  };
+	  xhttp.open("GET", "specialdish.txt", true);
+	  xhttp.send();
+	}	
 	</script>
 	</body>
 </html>
