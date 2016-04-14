@@ -73,10 +73,9 @@ body {
 
 #button{
 	font-family:Helvetica, sans-serif;
-	color:#e7c004;
 	font-size:15px;
-	margin-top:0px;
-	margin-left:40px;
+	margin:auto;
+	display:block;
 	
 }
 	
@@ -983,7 +982,7 @@ body {
 .navbuttons {
 	margin:0 auto;
 	float:left;
-	margin-bottom:10px;
+	margin-bottom:25px;
 	margin-left:0px;
 	}
 	
