@@ -921,7 +921,7 @@ body {
 	}
 	
 
-@media (max-device-width:7200px) {
+@media (max-device-width:720px) {
 	body {
 	margin:auto;
 	display: block;
