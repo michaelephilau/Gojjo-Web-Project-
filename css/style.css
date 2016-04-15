@@ -921,7 +921,7 @@ body {
 	}
 	
 
-@media only screen and(max-width:720px) {
+@media only screen and(max-width:500px) {
 	body {
 	margin:auto;
 	display: block;
