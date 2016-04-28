@@ -1,6 +1,5 @@
 body {
 	margin:auto;
-	display: block;
 	width: 100%;
 	background-color:#31221e;
 	}
@@ -921,11 +920,10 @@ body {
 	}
 	
 
-@media(max-width:500px) {
+@media only screen and (max-width: 500px) {
 	body {
 	margin:auto;
 	display: block;
-	width: 100%;
 	background-color:#31221e;
 	}
 	
