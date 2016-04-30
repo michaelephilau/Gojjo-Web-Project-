@@ -945,7 +945,7 @@ body {
 	flex-direction:column;
 	justify-content:space-around;
 	background-color:#31221e;
-	width:500px;
+	width:720px;
 	height:280px;
 
 	}
@@ -986,7 +986,7 @@ body {
 	margin-top:25px;
 	float:left;
 	height:10px;
-	width:500px;
+	width:720px;
 	background-color:#e7c004;
 
 	}
@@ -1032,7 +1032,7 @@ body {
 .container{
 	margin:0 auto;
 	margin-top:25px;
-	width:500px;
+	width:720px;
 	height:700px;
 	background:url('../images/background.png') no-repeat;
 	background-color:#31221e;
@@ -1069,7 +1069,7 @@ body {
 	
 .logobody{
 	margin:0 auto;
-	width:250px;
+	width:720px;
 	height:250px;
 	border:2px solid #b46021;
 	border-radius:50%;
@@ -1081,7 +1081,7 @@ body {
 
 .mapembed{
 	margin:0 auto;
-	width:450px;
+	width:680px;
 	height:450px;
 	border:2px solid #b46021;
 	border-radius:50%;
