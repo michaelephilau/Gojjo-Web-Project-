@@ -1,5 +1,5 @@
 body {
-	margin:auto;
+	margin:0 auto;
 	width: 100%;
 	background-color:#31221e;
 	}
@@ -16,7 +16,7 @@ body {
 	}
 	
 .header {
-	margin:auto;
+	margin:0 auto;
 	display:flex;
 	flex-direction:row;
 	justify-content:space-around;
@@ -62,7 +62,7 @@ body {
 	
 .headerline{
 	display:block;
-	margin:auto;
+	margin:0 auto;
 	float:left;
 	height:10px;
 	width:100%;
@@ -72,7 +72,7 @@ body {
 	
 .footerline{
 	display:block;
-	margin:auto;
+	margin:0 auto;
 	float:left;
 	height:10px;
 	width:100%;
@@ -83,7 +83,12 @@ body {
 #button{
 	font-family:Helvetica, sans-serif;
 	font-size:15px;
-	margin:auto;
+	color:#e7c004;
+	background-color: transparent;
+	border:1px solid #b46021;
+	padding:5px;
+	text-decoration:none;
+	margin:0 auto;
 	display:block;
 	
 	}
@@ -103,14 +108,14 @@ body {
 
 .navbuttons {
 	float:left;
-	margin:auto;
+	margin:0 auto;
 	margin-right:36px;
 	
 
 	}
 	
 .navbuttons ul {
-	margin:auto;
+	margin:0 auto;
 	padding-left: 0px;
 	float:left;
 	}
@@ -206,7 +211,7 @@ body {
 }
 	
 .logobody .bodylogo{
-	margin:auto;
+	margin:0 auto;
 	margin-left:130px;
 	margin-top:117px;
 	
@@ -214,20 +219,22 @@ body {
 	
 .bodylinks{
 	position:relative;
-	margin:auto;
+	margin:0 auto;
+	display:flex;
+	flex-direction:row;
 	
 
 	}
 	
 .aboutbox{
 	margin:0 auto;
-	margin-left:25%
 	float:left;
+	left:150px;
+	top:50px;
 	width:150px;
 	height:150px;
 	border:2px solid #b46021;
 	border-radius:50%;
-	top:120px;
 	position:relative;
 	transition:background-color 0.2s;
 	
@@ -253,7 +260,7 @@ body {
 	
 .aboutbox p{
 	position:relative;
-	margin:auto;
+	margin:0 auto;
 	text-align:center;
 	top:35px;
 	font-family:Helvetica, sans-serif;
@@ -265,7 +272,7 @@ body {
 	
 .menuhubbox p{
 	position:relative;
-	margin:auto;
+	margin:0 auto;
 	text-align:center;
 	top:35px;
 	font-family:Helvetica, sans-serif;
@@ -277,7 +284,7 @@ body {
 	
 .contactbox p{
 	position:relative;
-	margin:auto;
+	margin:0 auto;
 	text-align:center;
 	top:50px;
 	font-family:Helvetica, sans-serif;
@@ -289,9 +296,9 @@ body {
 	
 .menuhubbox{
 	margin:0 auto;
-	left:25%;
-	bottom:100px;
 	float:left;
+	right:150px;
+	top:50px;
 	width:150px;
 	height:150px;
 	border:2px solid #b46021;
@@ -321,9 +328,8 @@ body {
 	
 .contactbox{
 	margin:0 auto;
-	left:25%;
-	bottom:100px;
 	float:left;
+	top:150px;
 	width:150px;
 	height:150px;
 	border:2px solid #b46021;
@@ -390,7 +396,7 @@ body {
 	height:150px;
 	border:2px solid #b46021;
 	border-radius:50%;
-	top:55px;
+	top:50px;
 	position:relative;
 	transition:background-color 0.2s;
 	
@@ -416,7 +422,7 @@ body {
 	
 .brunchbox p{
 	position:relative;
-	margin:auto;
+	margin:0 auto;
 	text-align:center;
 	top:35px;
 	font-family:Helvetica, sans-serif;
@@ -436,7 +442,7 @@ body {
 	border-radius:50%;
 	position:relative;
 	transition:background-color 0.2s;
-	bottom:99px;
+	bottom:105px;
 	
 	}
 
@@ -459,7 +465,7 @@ body {
 	
 .fullbox p{
 	position:relative;
-	margin:auto;
+	margin:0 auto;
 	text-align:center;
 	top:35px;
 	font-family:Helvetica, sans-serif;
@@ -472,6 +478,7 @@ body {
 .aboutbodylinks{
 	position:relative;
 	margin:0 auto;
+	display:block;
 	
 	}	
 
@@ -617,7 +624,7 @@ body {
 	}
 	
 .allergyicons h1{
-	margin:auto;
+	margin:0 auto;
 	top:0px;
 	font-size:20px;
 	
@@ -710,7 +717,7 @@ body {
 .divtitle h1{
 	font-family:Helvetica, sans-serif;
 	font-size:35px;
-	margin:auto;
+	margin:0 auto;
 	
 	}
 
@@ -718,7 +725,7 @@ body {
 	font-family:Helvetica, sans-serif;
 	font-size:12px;
 	color:#e7c004;
-	margin:auto;
+	margin:0 auto;
 	text-align:center;
 	padding-top:25px;
 
@@ -845,7 +852,7 @@ body {
 	}
 	
 .footer{
-	margin:auto;
+	margin:0 auto;
 	width:1020px;
 	height:50px;
 	display:flex;
@@ -871,12 +878,12 @@ body {
 .footerbuttons
 {
 	display:block;
-	margin:auto;
+	margin:0 auto;
 	
 }
 	
 .footerbuttons ul {
-	margin:auto;
+	margin:0 auto;
 	padding-left: 0px;
 	float:left;
 	display:flex;
@@ -932,7 +939,7 @@ body {
 
 @media only screen and (max-width: 500px) {
 	body {
-	margin:auto;
+	margin:0 auto;
 	display: block;
 	background-color:#31221e;
 	}
@@ -951,12 +958,12 @@ body {
 .logocontain{
 	display:block;
 	left:50%;
-	margin:auto;
+	margin:0 auto;
 
 	}	
 	
 .header {
-	margin:auto;
+	margin:0 auto;
 	display:flex;
 	flex-direction:column;
 	justify-content:space-around;
@@ -998,7 +1005,7 @@ body {
 	
 .headerline{
 	display:block;
-	margin:auto;
+	margin:0 auto;
 	margin-top:25px;
 	float:left;
 	height:10px;
@@ -1015,7 +1022,7 @@ body {
 	}
 	
 .navbuttons ul {
-	margin:auto;
+	margin:0 auto;
 	padding-left: 0px;
 	float:left;
 	display:flex;
@@ -1110,7 +1117,7 @@ body {
 	}
 	
 .logobody .bodylogo{
-	margin:auto;
+	margin:0 auto;
 	margin-left:75px;
 	margin-top:62.5px;
 	
@@ -1118,7 +1125,7 @@ body {
 	
 .bodylinks{
 	position:relative;
-	margin:auto;
+	margin:0 auto;
 	display:flex;
 	flex-direction:column;
 	width:50%;
@@ -1126,8 +1133,9 @@ body {
 	}
 	
 .aboutbox{
-	margin:auto;
+	margin:0 auto;
 	float:left;
+	left:0px;
 	width:130px;
 	height:130px;
 	border:2px solid #b46021;
@@ -1148,7 +1156,7 @@ body {
 	
 .aboutbox p{
 	position:relative;
-	margin:auto;
+	margin:0 auto;
 	text-align:center;
 	top:20px;
 	font-family:Helvetica, sans-serif;
@@ -1160,7 +1168,7 @@ body {
 	
 .menuhubbox p{
 	position:relative;
-	margin:auto;
+	margin:0 auto;
 	text-align:center;
 	top:15px;
 	font-family:Helvetica, sans-serif;
@@ -1172,7 +1180,7 @@ body {
 	
 .contactbox p{
 	position:relative;
-	margin:auto;
+	margin:0 auto;
 	text-align:center;
 	top:30px;
 	font-family:Helvetica, sans-serif;
@@ -1185,6 +1193,8 @@ body {
 .menuhubbox{
 	margin:0 auto;
 	bottom:100px;
+	top:75px;
+	left:0px;
 	float:left;
 	width:130px;
 	height:130px;
@@ -1192,8 +1202,6 @@ body {
 	border-radius:50%;
 	position:relative;
 	transition:background-color 0.2s;
-	margin-top:175px;
-	left:0px;
 	
 	}
 	
@@ -1205,17 +1213,17 @@ body {
 	}
 	
 .contactbox{
-	margin:auto;
+	margin:0 auto;
 	bottom:100px;
 	float:left;
 	width:130px;
 	height:130px;
+	top:0px;
 	border:2px solid #b46021;
 	border-radius:50%;
 	position:relative;
 	transition:background-color 0.2s;
 	margin-top:75px;
-	bottom:0px;
 	left:0px;
 	
 	}
@@ -1229,7 +1237,7 @@ body {
 	
 .aboutustext{
 	margin:0 auto;
-	width:100%;
+	width:99%;
 	height:350px;
 	border:2px solid #b46021;
 	border-radius:50%;
@@ -1281,7 +1289,7 @@ body {
 	
 .brunchbox p{
 	position:relative;
-	margin:auto;
+	margin:0 auto;
 	text-align:center;
 	top:35px;
 	font-family:Helvetica, sans-serif;
@@ -1314,7 +1322,7 @@ body {
 	
 .fullbox p{
 	position:relative;
-	margin:auto;
+	margin:0 auto;
 	text-align:center;
 	top:38px;
 	font-family:Helvetica, sans-serif;
@@ -1327,19 +1335,21 @@ body {
 .aboutbodylinks{
 	position:relative;
 	margin:auto;
-	display:block;
+	display:flex;
+	flex-direction:row;
 	width:100%;
 	
-	}	
+	}
 
 .firstfloor{
 	margin:0 auto;
-	left:40px;
+	left:0px;
 	bottom:0px;
 	top:40px;
+	margin-bottom:30px;
 	float:left;
-	width:150px;
-	height:150px;
+	width:100px;
+	height:100px;
 	border:2px solid #b46021;
 	border-radius:50%;
 	position:relative;
@@ -1349,24 +1359,25 @@ body {
 	
 .firstfloor .ff{
 	display:block;
-	height:100px;
-	width:100px;
+	margin:0 auto;
+	text-align:center;
 	text-decoration:none;
 	list-style-type:none;
 	font-family:Helvetica, sans-serif;
 	font-size:20px;
 	color:#e7c004;
-	margin-left:35px;
-	margin-top:65px;
+	margin-top:40px; 
+	
 	}
 	
 .firstfloorpatio{
-	float:left;
-	right:0px;
+	margin:0 auto;
+	left:0px;
+	bottom:0px;
 	top:40px;
-	margin-right:50px;
-	width:150px;
-	height:150px;
+	float:left;
+	width:100px;
+	height:100px;
 	border:2px solid #b46021;
 	border-radius:50%;
 	position:relative;
@@ -1376,22 +1387,25 @@ body {
 	
 .firstfloorpatio .ffp{
 	display:block;
+	margin:0 auto;
+	text-align:center;
 	text-decoration:none;
 	list-style-type:none;
 	font-family:Helvetica, sans-serif;
 	font-size:20px;
 	color:#e7c004;
-	margin-top:65px;
-	text-align:center;
+	margin-top:30px;
+	
 	}
 	
 .secondfloor{
 	margin:0 auto;
-	top:45px;
-	left:40px;
+	left:0px;
+	bottom:0px;
+	top:40px;
 	float:left;
-	width:150px;
-	height:150px;
+	width:100px;
+	height:100px;
 	border:2px solid #b46021;
 	border-radius:50%;
 	position:relative;
@@ -1401,24 +1415,25 @@ body {
 	
 .secondfloor .sf{
 	display:block;
-	height:100px;
-	width:100px;
+	margin:0 auto;
+	text-align:center;
 	text-decoration:none;
 	list-style-type:none;
 	font-family:Helvetica, sans-serif;
 	font-size:20px;
 	color:#e7c004;
-	margin-left:35px;
-	margin-top:65px;
+	margin-top:40px;
+	
 	}
 
 .secondfloorpatio{
 	margin:0 auto;
-	top:45px;
-	left:150px;
+	left:0px;
+	bottom:0px;
+	top:40px;
 	float:left;
-	width:150px;
-	height:150px;
+	width:100px;
+	height:100px;
 	border:2px solid #b46021;
 	border-radius:50%;
 	position:relative;
@@ -1428,13 +1443,14 @@ body {
 
 .secondfloorpatio .sfp{
 	display:block;
+	margin:0 auto;
+	text-align:center;
 	text-decoration:none;
 	list-style-type:none;
 	font-family:Helvetica, sans-serif;
 	font-size:20px;
 	color:#e7c004;
-	margin-top:65px;
-	text-align:center;
+	margin-top:30px;
 	}	
 	
 .firstfloor:hover{
@@ -1474,14 +1490,14 @@ body {
 	}
 	
 .allergyicons h1{
-	margin:auto;
+	margin:0 auto;
 	top:0px;
 	font-size:15px;
 	
 	}
 	
 .icons{
-	margin:auto;
+	margin:0 auto;
 	display:flex;
 	flex-direction:row;
 	height:25%;
@@ -1573,7 +1589,7 @@ body {
 .divtitle h1{
 	font-family:Helvetica, sans-serif;
 	font-size:35px;
-	margin:auto;
+	margin:0 auto;
 	
 	}
 
@@ -1581,7 +1597,7 @@ body {
 	font-family:Helvetica, sans-serif;
 	font-size:10px;
 	color:#e7c004;
-	margin:auto;
+	margin:0 auto;
 	text-align:center;
 	padding-top:30px;
 
@@ -1715,7 +1731,7 @@ body {
 	}
 	
 .footer{
-	margin:auto;
+	margin:0 auto;
 	width:100%;
 	height:50px;
 	display:flex;
@@ -1743,12 +1759,12 @@ body {
 .footerbuttons
 {
 	display:block;
-	margin:auto;
+	margin:0 auto;
 	
 }
 
 .footerbuttons ul {
-	margin:auto;
+	margin:0 auto;
 	padding-left: 0px;
 	float:left;
 	display:flex;
