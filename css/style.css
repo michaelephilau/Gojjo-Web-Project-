@@ -21,7 +21,7 @@ body {
 	flex-direction:row;
 	justify-content:space-around;
 	background-color:#31221e;
-	width:1020px;
+	width:100%;
 	height:140px;
 
 	}
@@ -151,9 +151,9 @@ body {
 	
 .container{
 	margin:0 auto;
-	width:1020px;
+	width:100%;
 	height:725px;
-	background:url('../images/background.png') no-repeat;
+	background:url('../images/background.png');
 	background-color:#31221e;
 	
 	}
@@ -186,6 +186,16 @@ body {
 	top:35px;
 	}
 	
+.container h4{
+	margin:0 auto;
+	font-size:18px;
+	font-family:Helvetica, sans-serif;
+	color:#e7c004;
+	position:relative;
+	text-align:center;
+	top:65px;
+	}
+	
 .logobody{
 	margin:0 auto;
 	width:350px;
@@ -199,7 +209,7 @@ body {
 
 .mapembed{
 	margin:0 auto;
-	width:500px;
+	width:50%;
 	height:500px;
 	border:2px solid #b46021;
 	border-radius:50%;
@@ -208,6 +218,18 @@ body {
 	overflow:hidden;
 	
 
+}
+
+.mapembed:hover{
+	margin:0 auto;
+	width:50%;
+	height:500px;
+	border:2px solid #b46021;
+	border-radius:0%;
+	top:30px;
+	position:relative;
+	overflow:hidden;
+	
 }
 	
 .logobody .bodylogo{
@@ -222,22 +244,45 @@ body {
 	margin:0 auto;
 	display:flex;
 	flex-direction:row;
+	width:1024px;
 	
 
 	}
 	
+.aboutlink {
+	margin-left: 25%; 
+	margin-top:50px;
+	width:154px; 
+	height:154px;
+	
+}
+
+.contactlink{
+	margin-left: 25px; 
+	margin-top:150px; 
+	width:154px;
+	height:154px;
+	
+}
+
+.menuhublink{
+	margin-left: 25px; 
+	margin-top: 50px; 
+	width:154px; 
+	height:154px;
+	
+}
+	
 .aboutbox{
 	margin:0 auto;
 	float:left;
-	left:150px;
-	top:50px;
+	left:0px;
 	width:150px;
 	height:150px;
 	border:2px solid #b46021;
 	border-radius:50%;
 	position:relative;
 	transition:background-color 0.2s;
-	
 	
 	}
 
@@ -258,7 +303,7 @@ body {
 	
 	}
 	
-.aboutbox p{
+.aboutbox  p{
 	position:relative;
 	margin:0 auto;
 	text-align:center;
@@ -269,6 +314,7 @@ body {
 	display:none;
 
 	}
+	
 	
 .menuhubbox p{
 	position:relative;
@@ -297,8 +343,6 @@ body {
 .menuhubbox{
 	margin:0 auto;
 	float:left;
-	right:150px;
-	top:50px;
 	width:150px;
 	height:150px;
 	border:2px solid #b46021;
@@ -329,7 +373,6 @@ body {
 .contactbox{
 	margin:0 auto;
 	float:left;
-	top:150px;
 	width:150px;
 	height:150px;
 	border:2px solid #b46021;
@@ -503,10 +546,9 @@ body {
 	text-decoration:none;
 	list-style-type:none;
 	font-family:Helvetica, sans-serif;
-	font-size:20px;
+	font-size:25px;
 	color:#e7c004;
-	margin-left:35px;
-	margin-top:65px;
+	
 	}
 	
 .firstfloorpatio{
@@ -853,7 +895,7 @@ body {
 	
 .footer{
 	margin:0 auto;
-	width:1020px;
+	width:100%;
 	height:50px;
 	display:flex;
 	flex-direction:row;
@@ -936,8 +978,30 @@ body {
 
 	}
 	
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1024px){
+	.bodylinks{
+	position:relative;
+	margin:0 auto;
+	display:flex;
+	flex-direction:row;
+	width:512px;
+		
+	}	
+	
+	.aboutlink
+	{
+	margin-left: 0px; 
+	margin-top:50px;
+	width:154px; 
+	height:154px;
+			
+	}
+	
+	
+	
+}
+	
+@media only screen and (max-width: 600px) {
 	body {
 	margin:0 auto;
 	display: block;
@@ -1108,13 +1172,22 @@ body {
 	width:99%;
 	height:450px;
 	border:2px solid #b46021;
-	border-radius:50%;
+	border-radius:0%;
 	top:60px;
 	position:relative;
-	overflow:hidden;
-	
 
 	}
+	
+.mapembed:hover{
+	margin:0 auto;
+	width:50%;
+	height:500px;
+	border:2px solid #b46021;
+	border-radius:0%;
+	top:30px;
+	position:relative;
+	
+}
 	
 .logobody .bodylogo{
 	margin:0 auto;
@@ -1128,14 +1201,38 @@ body {
 	margin:0 auto;
 	display:flex;
 	flex-direction:column;
-	width:50%;
+	width:134px;
 
 	}
 	
+.aboutlink {
+	margin-left:0px;
+	margin-top:65px;
+	width:134px; 
+	height:134px;
+	
+}
+
+.contactlink{
+	margin-left: 0px;
+	margin-top:65px; 
+	width:134px;
+	height:134px;
+	
+}
+
+.menuhublink{
+	margin-left: 0px; 
+	margin-top: 65px; 
+	width:134px; 
+	height:134px;
+	
+}
+	
 .aboutbox{
+	display:block;
 	margin:0 auto;
 	float:left;
-	left:0px;
 	width:130px;
 	height:130px;
 	border:2px solid #b46021;
@@ -1143,7 +1240,6 @@ body {
 	top:0px;
 	position:relative;
 	transition:background-color 0.2s;
-	margin-top:55px;
 	
 	}
 	
@@ -1193,7 +1289,7 @@ body {
 .menuhubbox{
 	margin:0 auto;
 	bottom:100px;
-	top:75px;
+	top:0px;
 	left:0px;
 	float:left;
 	width:130px;
@@ -1223,7 +1319,6 @@ body {
 	border-radius:50%;
 	position:relative;
 	transition:background-color 0.2s;
-	margin-top:75px;
 	left:0px;
 	
 	}
@@ -1335,9 +1430,10 @@ body {
 .aboutbodylinks{
 	position:relative;
 	margin:auto;
+	margin-top:25px;
 	display:flex;
 	flex-direction:row;
-	width:100%;
+	width:272px;
 	
 	}
 
