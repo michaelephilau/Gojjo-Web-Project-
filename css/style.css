@@ -450,7 +450,7 @@ body {
 	}	
 	
 .brunchbox{	
-	margin:0 auto;
+	margin-left:0px;
 	float:left;
 	width:150px;
 	height:150px;
@@ -493,6 +493,7 @@ body {
 	
 .fullbox{	
 	margin:0 auto;
+	margin-right:0px;
 	float:left;
 	width:150px;
 	height:150px;
