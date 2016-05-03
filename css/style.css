@@ -260,13 +260,12 @@ body {
 	margin:0 auto;
 	display:flex;
 	flex-direction:row;
-	width:1024px;
+	width:512px;
 	
 
 	}
 	
 .aboutlink {
-	margin-left: 25%; 
 	margin-top:50px;
 	width:154px; 
 	height:154px;
@@ -443,21 +442,20 @@ body {
 .menuhubbodylinks{
 	position:relative;
 	margin:0 auto;
+	margin-top:50px;
 	display:flex;
 	flex-direction:row;
-	width:1024px;
+	width:512px;
 
 	}	
 	
 .brunchbox{	
 	margin:0 auto;
-	margin-left:25%;
 	float:left;
 	width:150px;
 	height:150px;
 	border:2px solid #b46021;
 	border-radius:50%;
-	top:50px;
 	position:relative;
 	transition:background-color 0.2s;
 	
@@ -495,8 +493,6 @@ body {
 	
 .fullbox{	
 	margin:0 auto;
-	margin-left:25px;
-	margin-top:100px;
 	float:left;
 	width:150px;
 	height:150px;
@@ -504,7 +500,6 @@ body {
 	border-radius:50%;
 	position:relative;
 	transition:background-color 0.2s;
-	bottom:105px;
 	
 	}
 
@@ -918,7 +913,7 @@ body {
 .brunchdiv .item .allergybox .wheat{
 	height:80%;
 
-}
+	}
 	
 .brunchdiv .item  .pricebox{
 	display:block;
@@ -952,7 +947,7 @@ body {
 	display:block;
 	width:100%;
 	
-}
+	}
 	
 .footertext h1{
 	font-family:Helvetica, sans-serif;
@@ -1478,6 +1473,8 @@ body {
 	.menuhubbodylinks{
 		position:relative;
 		margin:0 auto;
+		display:block;
+		
 		}	
 		
 	.brunchbox{	
@@ -1488,10 +1485,9 @@ body {
 		height:250px;
 		border:2px solid #b46021;
 		border-radius:50%;
-		top:80px;
+		top:50px;
 		position:relative;
 		transition:background-color 0.2s;
-		
 		
 		}
 		
@@ -1500,14 +1496,14 @@ body {
 		margin:auto;
 		margin-top:65px;
 
-	}
+		}
 	
 	.aboutbodylinks{
 		position:relative;
 		margin:auto;
 		margin-top:45px;		
 		
-	}
+		}
 
 	.brunchbox .brunchimage{
 		margin:0 auto;
@@ -1540,6 +1536,7 @@ body {
 		transition:background-color 0.2s;
 		bottom:0px;
 		margin-top:150px;
+		
 		}
 		
 	.fullbox .fullmenuimage{
@@ -2069,6 +2066,59 @@ body {
 		
 	}
 	
+}
+
+@media only screen and (max-width: 512px){
+	
+	.menuhubbodylinks{
+		position:relative;
+		margin:0 auto;
+		display:block;
+		width:200px;
+		
+	}	
+		
+	.brunchbox{	
+		margin:0 auto;
+		margin-left:0%;
+		float:left;
+		width:200px;
+		height:200px;
+		border:2px solid #b46021;
+		border-radius:50%;
+		top:70px;
+		position:relative;
+		transition:background-color 0.2s;
+		
+	}
+	
+	.fullbox{	
+		margin:0 auto;
+		margin-left:0%;
+		float:left;
+		width:200px;
+		height:200px;
+		border:2px solid #b46021;
+		border-radius:50%;
+		position:relative;
+		transition:background-color 0.2s;
+		bottom:0px;
+		top:20px;
+		margin-top:150px;
+		
+	}
+	
+	.brunchbox p{
+		top:25px;
+		font-size:18px;
+
+	}
+	
+	.fullbox p{
+		top:25px;
+		font-size:18px;
+
+	}
 }
 
 @media only screen and (max-width: 310px){
