@@ -720,86 +720,92 @@ body {
 	width:100%;
 	margin:0 auto;
 	position:relative;
-	left:25px;
-	bottom:20px;
-	margin-top:10px;
-	top:.75px
+	margin-bottom:10px;
+	margin-top:20px;
+
 	}
 	
-.icons h1{
+.iconstitle{
+	display:flex;
+	flex-direction:row;
+
+	}
+	
+.iconstitle h1{
+	margin: 0 auto;
+	float:left;
 	font-family:Helvetica, sans-serif;
 	font-size:12px;
 	color:#e7c004;
-	margin-left:0px;
-	margin-right:0px;
 	position:relative;
-	top:37px;
-	right:53px;
+	
+	
 	}
 	
-.icons h2{
+.iconstitle h2{
+	margin: 0 auto;
+	float:left;
 	font-family:Helvetica, sans-serif;
 	font-size:12px;
 	color:#e7c004;
-	margin-left:0px;
-	margin-right:0px;
 	position:relative;
-	top:48px;
-	right:47px;
+	top:0px;
+	left:8px;
+	
 	}
 	
-.icons h3{
+.iconstitle h3{
+	margin: 0 auto;
+	float:left;
 	font-family:Helvetica, sans-serif;
 	font-size:12px;
 	color:#e7c004;
-	margin-left:0px;
-	margin-right:0px;
 	position:relative;
-	top:47px;
-	right:41px;
-		
+	top:0px;
+	left:10px;
+	
 	}
 	
-.icons h4{
+.iconstitle h4{
+	margin: 0 auto;
+	float:left;
 	font-family:Helvetica, sans-serif;
 	font-size:12px;
 	color:#e7c004;
-	margin-left:0px;
-	margin-right:0px;
 	position:relative;
-	top:43px;
-	right:44px;
-		
+	top:0px;
+	left:5px;
+	
 	}
 	
-.icons h5{
+.iconstitle h5{
+	margin: 0 auto;
+	float:left;
 	font-family:Helvetica, sans-serif;
 	font-size:12px;
 	color:#e7c004;
-	margin-left:0px;
-	margin-right:0px;
 	position:relative;
-	top:39px;
-	right:41px;
-		
+	left:0px;
+	top:0px;
+	
 	}
 	
-.icons h6{
+.iconstitle h6{
+	margin: 0 auto;
+	float:left;
 	font-family:Helvetica, sans-serif;
 	font-size:12px;
 	color:#e7c004;
-	margin-left:0px;
-	margin-right:0px;
 	position:relative;
-	top:30px;
-	right:78px;
-		
+	left:15px;
+	
 	}
 
 .divtitle h1{
 	font-family:Helvetica, sans-serif;
 	font-size:35px;
 	margin:0 auto;
+	top:35px;
 	
 	}
 
@@ -809,14 +815,14 @@ body {
 	color:#e7c004;
 	margin:0 auto;
 	text-align:center;
-	padding-top:25px;
-
+	margin-top:40px;
+	
 	}	
 	
 .brunchdiv{
 	display:block;
-	width:900px;
-	height:500px;
+	width:100%;
+	height:475px;
 	position:relative;
 	margin:0 auto;
 	top:15px;
@@ -1075,20 +1081,20 @@ body {
 	}	
 		
 	.header h1 {
-		font-family:Helvetica, sans-serif;
-		color:#e7c004;
-		font-size:18px;
-		margin-top:36px;
-		margin-left:50px;
+	font-family:Helvetica, sans-serif;
+	color:#e7c004;
+	font-size:18px;
+	margin-top:36px;
+	margin-left:50px;
 
 	}
 
 	.header h2 {
-		font-family:Helvetica, sans-serif;
-		color:#e7c004;
-		font-size:18px;
-		margin-top:0px;
-		margin-left:50px;
+	font-family:Helvetica, sans-serif;
+	color:#e7c004;
+	font-size:18px;
+	margin-top:0px;
+	margin-left:50px;
 
 	}
 }
@@ -1696,7 +1702,6 @@ body {
 		}
 		
 	.allergyicons{
-		display:block;
 		height:115px;
 		width:100%;
 		margin-left:0px;
@@ -1732,8 +1737,77 @@ body {
 		display:block;
 		width:20px;
 		height:20px;
-		padding-left:10px;
 		
+	}
+	
+	.iconstitle h1{
+	margin: 0 auto;
+	float:left;
+	font-family:Helvetica, sans-serif;
+	font-size:12px;
+	color:#e7c004;
+	position:relative;
+	
+	
+	}
+	
+.iconstitle h2{
+	margin: 0 auto;
+	float:left;
+	font-family:Helvetica, sans-serif;
+	font-size:12px;
+	color:#e7c004;
+	position:relative;
+	top:0px;
+	left:3px;
+	
+	}
+	
+.iconstitle h3{
+	margin: 0 auto;
+	float:left;
+	font-family:Helvetica, sans-serif;
+	font-size:12px;
+	color:#e7c004;
+	position:relative;
+	top:0px;
+	left:10px;
+	
+	}
+	
+.iconstitle h4{
+	margin: 0 auto;
+	float:left;
+	font-family:Helvetica, sans-serif;
+	font-size:12px;
+	color:#e7c004;
+	position:relative;
+	top:0px;
+	left:15px;
+	
+	}
+	
+.iconstitle h5{
+	margin: 0 auto;
+	float:left;
+	font-family:Helvetica, sans-serif;
+	font-size:12px;
+	color:#e7c004;
+	position:relative;
+	left:20px;
+	top:0px;
+	
+	}
+	
+.iconstitle h6{
+	margin: 0 auto;
+	float:left;
+	font-family:Helvetica, sans-serif;
+	font-size:12px;
+	color:#e7c004;
+	position:relative;
+	left:15px;
+	
 	}
 		
 	.icons h1{
@@ -1745,63 +1819,6 @@ body {
 		position:relative;
 		top:37px;
 		right:35px;
-		}
-		
-	.icons h2{
-		font-family:Helvetica, sans-serif;
-		font-size:10px;
-		color:#e7c004;
-		margin-left:0px;
-		margin-right:0px;
-		position:relative;
-		top:48px;
-		right:30px;
-		}
-		
-	.icons h3{
-		font-family:Helvetica, sans-serif;
-		font-size:10px;
-		color:#e7c004;
-		margin-left:0px;
-		margin-right:0px;
-		position:relative;
-		top:47px;
-		right:25px;
-		}
-		
-	.icons h4{
-		font-family:Helvetica, sans-serif;
-		font-size:10px;
-		color:#e7c004;
-		margin-left:0px;
-		margin-right:0px;
-		position:relative;
-		top:43px;
-		right:28px;		
-		}
-		
-	.icons h5{
-		font-family:Helvetica, sans-serif;
-		font-size:10px;
-		color:#e7c004;
-		margin-left:0px;
-		margin-right:0px;
-		position:relative;
-		top:39px;
-		right:24px;
-			
-		}
-		
-	.icons h6{
-		font-family:Helvetica, sans-serif;
-		font-size:10px;
-		color:#e7c004;
-		margin-left:0px;
-		margin-right:0px;
-		position:relative;
-		top:30px;
-		right:60px;
-			
 		}
 
 	.divtitle h1{
